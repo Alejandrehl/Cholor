@@ -22,7 +22,7 @@ class ListadoViewController: UIViewController {
     }
     
     @IBAction func volverPulsado(_ sender: Any) {
-        
+        dismiss(animated: true, completion: nil)
     }
     
     /*

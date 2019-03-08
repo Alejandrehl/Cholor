@@ -22,7 +22,7 @@ class JuegoViewController: UIViewController {
     }
     
     @IBAction func inicioPulsado(_ sender: UIButton) {
-        
+        dismiss(animated: true, completion: nil)
     }
     
     /*
