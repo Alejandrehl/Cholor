@@ -15,6 +15,7 @@
 		A9420BD1223196EF009E4008 /* olivier_demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9420BD0223196EF009E4008 /* olivier_demo.ttf */; };
 		A9420BD322319803009E4008 /* Cholor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A9420BD222319803009E4008 /* Cholor.m4a */; };
 		A978471C2231BEF3006E969D /* JuegoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978471B2231BEF3006E969D /* JuegoViewController.swift */; };
+		A978471E22320EC3006E969D /* ListadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978471D22320EC3006E969D /* ListadoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		A9420BD0223196EF009E4008 /* olivier_demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = olivier_demo.ttf; path = ../../AssetsProyectoCholor/olivier_demo.ttf; sourceTree = "<group>"; };
 		A9420BD222319803009E4008 /* Cholor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Cholor.m4a; path = ../../AssetsProyectoCholor/Cholor.m4a; sourceTree = "<group>"; };
 		A978471B2231BEF3006E969D /* JuegoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoViewController.swift; sourceTree = "<group>"; };
+		A978471D22320EC3006E969D /* ListadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoViewController.swift; sourceTree = "<group>"; };
+		A9784721223218B2006E969D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		A9420BBD22317D8E009E4008 /* Cholor */ = {
 			isa = PBXGroup;
 			children = (
+				A978471F22321715006E969D /* Playgrounds */,
+				A978471D22320EC3006E969D /* ListadoViewController.swift */,
 				A9420BBE22317D8E009E4008 /* AppDelegate.swift */,
 				A9420BC022317D8E009E4008 /* InicioViewController.swift */,
 				A9420BC222317D8E009E4008 /* Main.storyboard */,
@@ -71,6 +76,14 @@
 				A9420BCA22317D8E009E4008 /* Info.plist */,
 			);
 			path = Cholor;
+			sourceTree = "<group>";
+		};
+		A978471F22321715006E969D /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				A9784721223218B2006E969D /* MyPlayground.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9420BC122317D8E009E4008 /* InicioViewController.swift in Sources */,
+				A978471E22320EC3006E969D /* ListadoViewController.swift in Sources */,
 				A9420BBF22317D8E009E4008 /* AppDelegate.swift in Sources */,
 				A978471C2231BEF3006E969D /* JuegoViewController.swift in Sources */,
 			);

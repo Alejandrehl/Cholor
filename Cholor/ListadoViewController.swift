@@ -1,5 +1,5 @@
 //
-//  JuegoViewController.swift
+//  ListadoViewController.swift
 //  Cholor
 //
 //  Created by Alejandro Hernández Lara on 3/7/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JuegoViewController: UIViewController {
+class ListadoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ class JuegoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func inicioPulsado(_ sender: UIButton) {
+    @IBAction func volverPulsado(_ sender: Any) {
         
     }
     
