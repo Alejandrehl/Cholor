@@ -14,6 +14,7 @@
 		A9420BC922317D8E009E4008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9420BC722317D8E009E4008 /* LaunchScreen.storyboard */; };
 		A9420BD1223196EF009E4008 /* olivier_demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9420BD0223196EF009E4008 /* olivier_demo.ttf */; };
 		A9420BD322319803009E4008 /* Cholor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A9420BD222319803009E4008 /* Cholor.m4a */; };
+		A978471C2231BEF3006E969D /* JuegoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978471B2231BEF3006E969D /* JuegoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A9420BCA22317D8E009E4008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9420BD0223196EF009E4008 /* olivier_demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = olivier_demo.ttf; path = ../../AssetsProyectoCholor/olivier_demo.ttf; sourceTree = "<group>"; };
 		A9420BD222319803009E4008 /* Cholor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Cholor.m4a; path = ../../AssetsProyectoCholor/Cholor.m4a; sourceTree = "<group>"; };
+		A978471B2231BEF3006E969D /* JuegoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				A9420BBE22317D8E009E4008 /* AppDelegate.swift */,
 				A9420BC022317D8E009E4008 /* InicioViewController.swift */,
 				A9420BC222317D8E009E4008 /* Main.storyboard */,
+				A978471B2231BEF3006E969D /* JuegoViewController.swift */,
 				A9420BC522317D8E009E4008 /* Assets.xcassets */,
 				A9420BC722317D8E009E4008 /* LaunchScreen.storyboard */,
 				A9420BD222319803009E4008 /* Cholor.m4a */,
@@ -146,6 +149,7 @@
 			files = (
 				A9420BC122317D8E009E4008 /* InicioViewController.swift in Sources */,
 				A9420BBF22317D8E009E4008 /* AppDelegate.swift in Sources */,
+				A978471C2231BEF3006E969D /* JuegoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
