@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import Hero
 
 class InicioViewController: UIViewController {
 
@@ -36,6 +37,14 @@ class InicioViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "irJuego" {
+            let juegoViewController = segue.destination as! JuegoViewController // Si el segue.destination tiene el JuegoViewController este se le asigna a la constante.
+            juegoViewController.hero.isEnabled = true
+            juegoViewController.hero.modalAnimationType = .selectBy(presenting: .zoom, dismissing: .zoomOut)
+        }
     }
 
 

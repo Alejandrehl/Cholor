@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Hero
 
 class ListadoViewController: UIViewController {
 
@@ -22,7 +23,7 @@ class ListadoViewController: UIViewController {
     }
     
     @IBAction func volverPulsado(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        self.hero.dismissViewController()
     }
     
     /*
