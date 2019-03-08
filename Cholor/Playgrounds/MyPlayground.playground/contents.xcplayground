@@ -3,5 +3,7 @@
     <pages>
         <page name='Tabla de Contenidos'/>
         <page name='Constantes Variables'/>
+        <page name='Funciones'/>
+        <page name='Manejo de Errores'/>
     </pages>
 </playground>
