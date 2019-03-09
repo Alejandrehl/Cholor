@@ -6,4 +6,12 @@
 //  Copyright © 2019 Alejandro Hernández Lara. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension JuegoViewController {
+    
+    @IBAction func inicioPulsado(_ sender: UIButton) {
+        self.hero.dismissViewController()
+    }
+    
+}

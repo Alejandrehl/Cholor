@@ -18,5 +18,5 @@ extension InicioViewController {
             juegoViewController.hero.modalAnimationType = .selectBy(presenting: .zoom, dismissing: .zoomOut)
         }
     }
-
+    
 }
