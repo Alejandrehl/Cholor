@@ -13,7 +13,10 @@ extension InicioViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "irJuego" {
+            // Vista controladora de destino
             let juegoViewController = segue.destination as! JuegoViewController // Si el segue.destination tiene el JuegoViewController este se le asigna a la constante.
+            
+            // Transición
             juegoViewController.hero.isEnabled = true
             juegoViewController.hero.modalAnimationType = .selectBy(presenting: .zoom, dismissing: .zoomOut)
         }
