@@ -16,6 +16,7 @@
 		A9420BD322319803009E4008 /* Cholor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A9420BD222319803009E4008 /* Cholor.m4a */; };
 		A978471C2231BEF3006E969D /* JuegoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978471B2231BEF3006E969D /* JuegoViewController.swift */; };
 		A978471E22320EC3006E969D /* ListadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978471D22320EC3006E969D /* ListadoViewController.swift */; };
+		A9A8B0222234612A003A0256 /* UIColor+Cholor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B0212234612A003A0256 /* UIColor+Cholor.swift */; };
 		A9F6240E2232D6E100690C18 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A9F6240D2232D6E100690C18 /* Podfile */; };
 		F97CD4D667733242224338C1 /* Pods_Cholor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9528EC2FB327D758FA684393 /* Pods_Cholor.framework */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		A978471B2231BEF3006E969D /* JuegoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoViewController.swift; sourceTree = "<group>"; };
 		A978471D22320EC3006E969D /* ListadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoViewController.swift; sourceTree = "<group>"; };
 		A9784721223218B2006E969D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A9A8B0212234612A003A0256 /* UIColor+Cholor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Cholor.swift"; sourceTree = "<group>"; };
 		A9F6240D2232D6E100690C18 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		AD3E336F62F18774E0DEE7BB /* Pods-Cholor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cholor.release.xcconfig"; path = "Target Support Files/Pods-Cholor/Pods-Cholor.release.xcconfig"; sourceTree = "<group>"; };
 		D6C3E646316D96283E8E2E5F /* Pods-Cholor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cholor.debug.xcconfig"; path = "Target Support Files/Pods-Cholor/Pods-Cholor.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,7 +75,6 @@
 		A9420BBD22317D8E009E4008 /* Cholor */ = {
 			isa = PBXGroup;
 			children = (
-				A978471F22321715006E969D /* Playgrounds */,
 				A978471D22320EC3006E969D /* ListadoViewController.swift */,
 				A9420BBE22317D8E009E4008 /* AppDelegate.swift */,
 				A9420BC022317D8E009E4008 /* InicioViewController.swift */,
@@ -84,6 +85,7 @@
 				A9420BD222319803009E4008 /* Cholor.m4a */,
 				A9420BD0223196EF009E4008 /* olivier_demo.ttf */,
 				A9420BCA22317D8E009E4008 /* Info.plist */,
+				A978471F22321715006E969D /* Playgrounds */,
 			);
 			path = Cholor;
 			sourceTree = "<group>";
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				A9784721223218B2006E969D /* MyPlayground.playground */,
+				A9A8B0212234612A003A0256 /* UIColor+Cholor.swift */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
@@ -110,7 +113,6 @@
 				D6C3E646316D96283E8E2E5F /* Pods-Cholor.debug.xcconfig */,
 				AD3E336F62F18774E0DEE7BB /* Pods-Cholor.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -192,15 +194,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Cholor/Pods-Cholor-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 			);
@@ -214,15 +212,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Cholor-checkManifestLockResult.txt",
 			);
@@ -242,6 +236,7 @@
 				A978471E22320EC3006E969D /* ListadoViewController.swift in Sources */,
 				A9420BBF22317D8E009E4008 /* AppDelegate.swift in Sources */,
 				A978471C2231BEF3006E969D /* JuegoViewController.swift in Sources */,
+				A9A8B0222234612A003A0256 /* UIColor+Cholor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
