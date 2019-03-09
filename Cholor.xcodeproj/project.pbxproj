@@ -105,9 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				A9420BBE22317D8E009E4008 /* AppDelegate.swift */,
-				A978471D22320EC3006E969D /* ListadoViewController.swift */,
-				A9420BC022317D8E009E4008 /* InicioViewController.swift */,
-				A978471B2231BEF3006E969D /* JuegoViewController.swift */,
+				A9A8B02B22346B51003A0256 /* Inicio */,
+				A9A8B02C22346B66003A0256 /* Juego */,
+				A9A8B02D22346B71003A0256 /* Listado */,
 			);
 			path = Controladores;
 			sourceTree = "<group>";
@@ -143,6 +143,30 @@
 				A9A8B028223466CA003A0256 /* Cholor.m4a */,
 			);
 			path = Audios;
+			sourceTree = "<group>";
+		};
+		A9A8B02B22346B51003A0256 /* Inicio */ = {
+			isa = PBXGroup;
+			children = (
+				A9420BC022317D8E009E4008 /* InicioViewController.swift */,
+			);
+			path = Inicio;
+			sourceTree = "<group>";
+		};
+		A9A8B02C22346B66003A0256 /* Juego */ = {
+			isa = PBXGroup;
+			children = (
+				A978471B2231BEF3006E969D /* JuegoViewController.swift */,
+			);
+			path = Juego;
+			sourceTree = "<group>";
+		};
+		A9A8B02D22346B71003A0256 /* Listado */ = {
+			isa = PBXGroup;
+			children = (
+				A978471D22320EC3006E969D /* ListadoViewController.swift */,
+			);
+			path = Listado;
 			sourceTree = "<group>";
 		};
 		BC04990BC4F48F0780B769A3 /* Frameworks */ = {
