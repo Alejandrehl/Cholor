@@ -15,6 +15,11 @@
 		A978471C2231BEF3006E969D /* JuegoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978471B2231BEF3006E969D /* JuegoViewController.swift */; };
 		A978471E22320EC3006E969D /* ListadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978471D22320EC3006E969D /* ListadoViewController.swift */; };
 		A9A8B0222234612A003A0256 /* UIColor+Cholor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B0212234612A003A0256 /* UIColor+Cholor.swift */; };
+		A9A8B02F22346C4E003A0256 /* InicioViewController+Inicializadores.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B02E22346C4E003A0256 /* InicioViewController+Inicializadores.swift */; };
+		A9A8B03122346CA3003A0256 /* InicioViewController+Navegacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B03022346CA3003A0256 /* InicioViewController+Navegacion.swift */; };
+		A9A8B03322346D23003A0256 /* JuegoViewController+Navegacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B03222346D23003A0256 /* JuegoViewController+Navegacion.swift */; };
+		A9A8B03522346D84003A0256 /* JuegoViewController+Acciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B03422346D84003A0256 /* JuegoViewController+Acciones.swift */; };
+		A9A8B03722346DB2003A0256 /* ListadoViewController+Acciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B03622346DB2003A0256 /* ListadoViewController+Acciones.swift */; };
 		A9F6240E2232D6E100690C18 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A9F6240D2232D6E100690C18 /* Podfile */; };
 		F97CD4D667733242224338C1 /* Pods_Cholor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9528EC2FB327D758FA684393 /* Pods_Cholor.framework */; };
 /* End PBXBuildFile section */
@@ -34,6 +39,11 @@
 		A9A8B0212234612A003A0256 /* UIColor+Cholor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Cholor.swift"; sourceTree = "<group>"; };
 		A9A8B028223466CA003A0256 /* Cholor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cholor.m4a; sourceTree = "<group>"; };
 		A9A8B029223466CE003A0256 /* olivier_demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = olivier_demo.ttf; sourceTree = "<group>"; };
+		A9A8B02E22346C4E003A0256 /* InicioViewController+Inicializadores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "InicioViewController+Inicializadores.swift"; path = "/Users/alejandro/Desktop/IOSDevelopment/Cholor/Cholor/Controladores/Inicio/InicioViewController+Inicializadores.swift"; sourceTree = "<absolute>"; };
+		A9A8B03022346CA3003A0256 /* InicioViewController+Navegacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InicioViewController+Navegacion.swift"; sourceTree = "<group>"; };
+		A9A8B03222346D23003A0256 /* JuegoViewController+Navegacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JuegoViewController+Navegacion.swift"; sourceTree = "<group>"; };
+		A9A8B03422346D84003A0256 /* JuegoViewController+Acciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JuegoViewController+Acciones.swift"; sourceTree = "<group>"; };
+		A9A8B03622346DB2003A0256 /* ListadoViewController+Acciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListadoViewController+Acciones.swift"; sourceTree = "<group>"; };
 		A9F6240D2232D6E100690C18 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		AD3E336F62F18774E0DEE7BB /* Pods-Cholor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cholor.release.xcconfig"; path = "Target Support Files/Pods-Cholor/Pods-Cholor.release.xcconfig"; sourceTree = "<group>"; };
 		D6C3E646316D96283E8E2E5F /* Pods-Cholor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cholor.debug.xcconfig"; path = "Target Support Files/Pods-Cholor/Pods-Cholor.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				A9420BC022317D8E009E4008 /* InicioViewController.swift */,
+				A9A8B02E22346C4E003A0256 /* InicioViewController+Inicializadores.swift */,
+				A9A8B03022346CA3003A0256 /* InicioViewController+Navegacion.swift */,
 			);
 			path = Inicio;
 			sourceTree = "<group>";
@@ -157,6 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				A978471B2231BEF3006E969D /* JuegoViewController.swift */,
+				A9A8B03222346D23003A0256 /* JuegoViewController+Navegacion.swift */,
+				A9A8B03422346D84003A0256 /* JuegoViewController+Acciones.swift */,
 			);
 			path = Juego;
 			sourceTree = "<group>";
@@ -165,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				A978471D22320EC3006E969D /* ListadoViewController.swift */,
+				A9A8B03622346DB2003A0256 /* ListadoViewController+Acciones.swift */,
 			);
 			path = Listado;
 			sourceTree = "<group>";
@@ -300,10 +315,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A8B02F22346C4E003A0256 /* InicioViewController+Inicializadores.swift in Sources */,
 				A9420BC122317D8E009E4008 /* InicioViewController.swift in Sources */,
+				A9A8B03722346DB2003A0256 /* ListadoViewController+Acciones.swift in Sources */,
+				A9A8B03522346D84003A0256 /* JuegoViewController+Acciones.swift in Sources */,
 				A978471E22320EC3006E969D /* ListadoViewController.swift in Sources */,
 				A9420BBF22317D8E009E4008 /* AppDelegate.swift in Sources */,
 				A978471C2231BEF3006E969D /* JuegoViewController.swift in Sources */,
+				A9A8B03122346CA3003A0256 /* InicioViewController+Navegacion.swift in Sources */,
+				A9A8B03322346D23003A0256 /* JuegoViewController+Navegacion.swift in Sources */,
 				A9A8B0222234612A003A0256 /* UIColor+Cholor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
