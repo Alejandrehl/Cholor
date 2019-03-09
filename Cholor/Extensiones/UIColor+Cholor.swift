@@ -11,5 +11,3 @@ extension UIColor {
     static let azulFondo = UIColor(named: "Azul Fondo")
     static let azulDestello = UIColor(named: "Azul Destello")
 }
-
-

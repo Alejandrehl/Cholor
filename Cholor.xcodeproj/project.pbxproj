@@ -12,8 +12,6 @@
 		A9420BC422317D8E009E4008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9420BC222317D8E009E4008 /* Main.storyboard */; };
 		A9420BC622317D8E009E4008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9420BC522317D8E009E4008 /* Assets.xcassets */; };
 		A9420BC922317D8E009E4008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9420BC722317D8E009E4008 /* LaunchScreen.storyboard */; };
-		A9420BD1223196EF009E4008 /* olivier_demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9420BD0223196EF009E4008 /* olivier_demo.ttf */; };
-		A9420BD322319803009E4008 /* Cholor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A9420BD222319803009E4008 /* Cholor.m4a */; };
 		A978471C2231BEF3006E969D /* JuegoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978471B2231BEF3006E969D /* JuegoViewController.swift */; };
 		A978471E22320EC3006E969D /* ListadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978471D22320EC3006E969D /* ListadoViewController.swift */; };
 		A9A8B0222234612A003A0256 /* UIColor+Cholor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B0212234612A003A0256 /* UIColor+Cholor.swift */; };
@@ -30,12 +28,12 @@
 		A9420BC522317D8E009E4008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9420BC822317D8E009E4008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9420BCA22317D8E009E4008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9420BD0223196EF009E4008 /* olivier_demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = olivier_demo.ttf; path = ../../AssetsProyectoCholor/olivier_demo.ttf; sourceTree = "<group>"; };
-		A9420BD222319803009E4008 /* Cholor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Cholor.m4a; path = ../../AssetsProyectoCholor/Cholor.m4a; sourceTree = "<group>"; };
 		A978471B2231BEF3006E969D /* JuegoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoViewController.swift; sourceTree = "<group>"; };
 		A978471D22320EC3006E969D /* ListadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoViewController.swift; sourceTree = "<group>"; };
 		A9784721223218B2006E969D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A9A8B0212234612A003A0256 /* UIColor+Cholor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Cholor.swift"; sourceTree = "<group>"; };
+		A9A8B028223466CA003A0256 /* Cholor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cholor.m4a; sourceTree = "<group>"; };
+		A9A8B029223466CE003A0256 /* olivier_demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = olivier_demo.ttf; sourceTree = "<group>"; };
 		A9F6240D2232D6E100690C18 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		AD3E336F62F18774E0DEE7BB /* Pods-Cholor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cholor.release.xcconfig"; path = "Target Support Files/Pods-Cholor/Pods-Cholor.release.xcconfig"; sourceTree = "<group>"; };
 		D6C3E646316D96283E8E2E5F /* Pods-Cholor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cholor.debug.xcconfig"; path = "Target Support Files/Pods-Cholor/Pods-Cholor.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,16 +78,6 @@
 				A9A8B024223465CD003A0256 /* Controladores */,
 				A9A8B025223465D3003A0256 /* Extensiones */,
 				A9A8B023223465C1003A0256 /* Recursos */,
-				A978471D22320EC3006E969D /* ListadoViewController.swift */,
-				A9420BBE22317D8E009E4008 /* AppDelegate.swift */,
-				A9420BC022317D8E009E4008 /* InicioViewController.swift */,
-				A9420BC222317D8E009E4008 /* Main.storyboard */,
-				A978471B2231BEF3006E969D /* JuegoViewController.swift */,
-				A9420BC522317D8E009E4008 /* Assets.xcassets */,
-				A9420BC722317D8E009E4008 /* LaunchScreen.storyboard */,
-				A9420BD222319803009E4008 /* Cholor.m4a */,
-				A9420BD0223196EF009E4008 /* olivier_demo.ttf */,
-				A9420BCA22317D8E009E4008 /* Info.plist */,
 				A978471F22321715006E969D /* Playgrounds */,
 			);
 			path = Cholor;
@@ -99,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				A9784721223218B2006E969D /* MyPlayground.playground */,
-				A9A8B0212234612A003A0256 /* UIColor+Cholor.swift */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
@@ -107,6 +94,9 @@
 		A9A8B023223465C1003A0256 /* Recursos */ = {
 			isa = PBXGroup;
 			children = (
+				A9A8B02A2234673B003A0256 /* Audios */,
+				A9420BCA22317D8E009E4008 /* Info.plist */,
+				A9A8B029223466CE003A0256 /* olivier_demo.ttf */,
 			);
 			path = Recursos;
 			sourceTree = "<group>";
@@ -114,6 +104,10 @@
 		A9A8B024223465CD003A0256 /* Controladores */ = {
 			isa = PBXGroup;
 			children = (
+				A9420BBE22317D8E009E4008 /* AppDelegate.swift */,
+				A978471D22320EC3006E969D /* ListadoViewController.swift */,
+				A9420BC022317D8E009E4008 /* InicioViewController.swift */,
+				A978471B2231BEF3006E969D /* JuegoViewController.swift */,
 			);
 			path = Controladores;
 			sourceTree = "<group>";
@@ -121,6 +115,7 @@
 		A9A8B025223465D3003A0256 /* Extensiones */ = {
 			isa = PBXGroup;
 			children = (
+				A9A8B0212234612A003A0256 /* UIColor+Cholor.swift */,
 			);
 			path = Extensiones;
 			sourceTree = "<group>";
@@ -135,8 +130,19 @@
 		A9A8B02722346620003A0256 /* Vistas */ = {
 			isa = PBXGroup;
 			children = (
+				A9420BC222317D8E009E4008 /* Main.storyboard */,
+				A9420BC722317D8E009E4008 /* LaunchScreen.storyboard */,
+				A9420BC522317D8E009E4008 /* Assets.xcassets */,
 			);
 			path = Vistas;
+			sourceTree = "<group>";
+		};
+		A9A8B02A2234673B003A0256 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				A9A8B028223466CA003A0256 /* Cholor.m4a */,
+			);
+			path = Audios;
 			sourceTree = "<group>";
 		};
 		BC04990BC4F48F0780B769A3 /* Frameworks */ = {
@@ -220,8 +226,6 @@
 				A9F6240E2232D6E100690C18 /* Podfile in Resources */,
 				A9420BC922317D8E009E4008 /* LaunchScreen.storyboard in Resources */,
 				A9420BC622317D8E009E4008 /* Assets.xcassets in Resources */,
-				A9420BD322319803009E4008 /* Cholor.m4a in Resources */,
-				A9420BD1223196EF009E4008 /* olivier_demo.ttf in Resources */,
 				A9420BC422317D8E009E4008 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,7 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NVM9P8UU6;
-				INFOPLIST_FILE = Cholor/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Cholor/Recursos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pckz.Cholor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NVM9P8UU6;
-				INFOPLIST_FILE = Cholor/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Cholor/Recursos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pckz.Cholor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
