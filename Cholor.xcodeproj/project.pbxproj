@@ -75,6 +75,11 @@
 		A9420BBD22317D8E009E4008 /* Cholor */ = {
 			isa = PBXGroup;
 			children = (
+				A9A8B02622346609003A0256 /* Modelos */,
+				A9A8B02722346620003A0256 /* Vistas */,
+				A9A8B024223465CD003A0256 /* Controladores */,
+				A9A8B025223465D3003A0256 /* Extensiones */,
+				A9A8B023223465C1003A0256 /* Recursos */,
 				A978471D22320EC3006E969D /* ListadoViewController.swift */,
 				A9420BBE22317D8E009E4008 /* AppDelegate.swift */,
 				A9420BC022317D8E009E4008 /* InicioViewController.swift */,
@@ -97,6 +102,41 @@
 				A9A8B0212234612A003A0256 /* UIColor+Cholor.swift */,
 			);
 			path = Playgrounds;
+			sourceTree = "<group>";
+		};
+		A9A8B023223465C1003A0256 /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recursos;
+			sourceTree = "<group>";
+		};
+		A9A8B024223465CD003A0256 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controladores;
+			sourceTree = "<group>";
+		};
+		A9A8B025223465D3003A0256 /* Extensiones */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensiones;
+			sourceTree = "<group>";
+		};
+		A9A8B02622346609003A0256 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		A9A8B02722346620003A0256 /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vistas;
 			sourceTree = "<group>";
 		};
 		BC04990BC4F48F0780B769A3 /* Frameworks */ = {
