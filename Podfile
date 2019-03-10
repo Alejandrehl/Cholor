@@ -7,5 +7,5 @@ target 'Cholor' do
 
   # Pods for Cholor
     pod 'Hero'
-
+    
 end

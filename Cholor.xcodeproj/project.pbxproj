@@ -14,8 +14,15 @@
 		A9420BC922317D8E009E4008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9420BC722317D8E009E4008 /* LaunchScreen.storyboard */; };
 		A978471C2231BEF3006E969D /* JuegoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978471B2231BEF3006E969D /* JuegoViewController.swift */; };
 		A978471E22320EC3006E969D /* ListadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A978471D22320EC3006E969D /* ListadoViewController.swift */; };
+		A997612122348DAE00F02D3A /* InicioViewController+Inicializadores.swift in Sources */ = {isa = PBXBuildFile; fileRef = A997612022348DAE00F02D3A /* InicioViewController+Inicializadores.swift */; };
+		A997612822348F4C00F02D3A /* Nuevo-Nivel.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A997612222348F4C00F02D3A /* Nuevo-Nivel.m4a */; };
+		A997612922348F4C00F02D3A /* Boton-Jugar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A997612322348F4C00F02D3A /* Boton-Jugar.m4a */; };
+		A997612A22348F4C00F02D3A /* Fin-Partida.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A997612422348F4C00F02D3A /* Fin-Partida.m4a */; };
+		A997612B22348F4C00F02D3A /* Choque-Bolas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A997612522348F4C00F02D3A /* Choque-Bolas.m4a */; };
+		A997612C22348F4C00F02D3A /* Bola-Golpeando-Pared.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A997612622348F4C00F02D3A /* Bola-Golpeando-Pared.m4a */; };
+		A997612D22348F4C00F02D3A /* Bola-Negra.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A997612722348F4C00F02D3A /* Bola-Negra.m4a */; };
+		A997612E22348F5000F02D3A /* Cholor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A9A8B028223466CA003A0256 /* Cholor.m4a */; };
 		A9A8B0222234612A003A0256 /* UIColor+Cholor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B0212234612A003A0256 /* UIColor+Cholor.swift */; };
-		A9A8B02F22346C4E003A0256 /* InicioViewController+Inicializadores.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B02E22346C4E003A0256 /* InicioViewController+Inicializadores.swift */; };
 		A9A8B03122346CA3003A0256 /* InicioViewController+Navegacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B03022346CA3003A0256 /* InicioViewController+Navegacion.swift */; };
 		A9A8B03322346D23003A0256 /* JuegoViewController+Navegacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B03222346D23003A0256 /* JuegoViewController+Navegacion.swift */; };
 		A9A8B03522346D84003A0256 /* JuegoViewController+Acciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8B03422346D84003A0256 /* JuegoViewController+Acciones.swift */; };
@@ -36,10 +43,16 @@
 		A978471B2231BEF3006E969D /* JuegoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoViewController.swift; sourceTree = "<group>"; };
 		A978471D22320EC3006E969D /* ListadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoViewController.swift; sourceTree = "<group>"; };
 		A9784721223218B2006E969D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A997612022348DAE00F02D3A /* InicioViewController+Inicializadores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InicioViewController+Inicializadores.swift"; sourceTree = "<group>"; };
+		A997612222348F4C00F02D3A /* Nuevo-Nivel.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuevo-Nivel.m4a"; sourceTree = "<group>"; };
+		A997612322348F4C00F02D3A /* Boton-Jugar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boton-Jugar.m4a"; sourceTree = "<group>"; };
+		A997612422348F4C00F02D3A /* Fin-Partida.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fin-Partida.m4a"; sourceTree = "<group>"; };
+		A997612522348F4C00F02D3A /* Choque-Bolas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Choque-Bolas.m4a"; sourceTree = "<group>"; };
+		A997612622348F4C00F02D3A /* Bola-Golpeando-Pared.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bola-Golpeando-Pared.m4a"; sourceTree = "<group>"; };
+		A997612722348F4C00F02D3A /* Bola-Negra.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bola-Negra.m4a"; sourceTree = "<group>"; };
 		A9A8B0212234612A003A0256 /* UIColor+Cholor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Cholor.swift"; sourceTree = "<group>"; };
 		A9A8B028223466CA003A0256 /* Cholor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cholor.m4a; sourceTree = "<group>"; };
 		A9A8B029223466CE003A0256 /* olivier_demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = olivier_demo.ttf; sourceTree = "<group>"; };
-		A9A8B02E22346C4E003A0256 /* InicioViewController+Inicializadores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "InicioViewController+Inicializadores.swift"; path = "/Users/alejandro/Desktop/IOSDevelopment/Cholor/Cholor/Controladores/Inicio/InicioViewController+Inicializadores.swift"; sourceTree = "<absolute>"; };
 		A9A8B03022346CA3003A0256 /* InicioViewController+Navegacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InicioViewController+Navegacion.swift"; sourceTree = "<group>"; };
 		A9A8B03222346D23003A0256 /* JuegoViewController+Navegacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JuegoViewController+Navegacion.swift"; sourceTree = "<group>"; };
 		A9A8B03422346D84003A0256 /* JuegoViewController+Acciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JuegoViewController+Acciones.swift"; sourceTree = "<group>"; };
@@ -151,6 +164,12 @@
 			isa = PBXGroup;
 			children = (
 				A9A8B028223466CA003A0256 /* Cholor.m4a */,
+				A997612622348F4C00F02D3A /* Bola-Golpeando-Pared.m4a */,
+				A997612722348F4C00F02D3A /* Bola-Negra.m4a */,
+				A997612322348F4C00F02D3A /* Boton-Jugar.m4a */,
+				A997612522348F4C00F02D3A /* Choque-Bolas.m4a */,
+				A997612422348F4C00F02D3A /* Fin-Partida.m4a */,
+				A997612222348F4C00F02D3A /* Nuevo-Nivel.m4a */,
 			);
 			path = Audios;
 			sourceTree = "<group>";
@@ -159,7 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				A9420BC022317D8E009E4008 /* InicioViewController.swift */,
-				A9A8B02E22346C4E003A0256 /* InicioViewController+Inicializadores.swift */,
+				A997612022348DAE00F02D3A /* InicioViewController+Inicializadores.swift */,
 				A9A8B03022346CA3003A0256 /* InicioViewController+Navegacion.swift */,
 			);
 			path = Inicio;
@@ -263,9 +282,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9F6240E2232D6E100690C18 /* Podfile in Resources */,
+				A997612E22348F5000F02D3A /* Cholor.m4a in Resources */,
 				A9420BC922317D8E009E4008 /* LaunchScreen.storyboard in Resources */,
+				A997612D22348F4C00F02D3A /* Bola-Negra.m4a in Resources */,
+				A997612C22348F4C00F02D3A /* Bola-Golpeando-Pared.m4a in Resources */,
 				A9420BC622317D8E009E4008 /* Assets.xcassets in Resources */,
+				A997612B22348F4C00F02D3A /* Choque-Bolas.m4a in Resources */,
+				A997612922348F4C00F02D3A /* Boton-Jugar.m4a in Resources */,
 				A9420BC422317D8E009E4008 /* Main.storyboard in Resources */,
+				A997612822348F4C00F02D3A /* Nuevo-Nivel.m4a in Resources */,
+				A997612A22348F4C00F02D3A /* Fin-Partida.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,9 +341,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A8B02F22346C4E003A0256 /* InicioViewController+Inicializadores.swift in Sources */,
 				A9420BC122317D8E009E4008 /* InicioViewController.swift in Sources */,
 				A9A8B03722346DB2003A0256 /* ListadoViewController+Acciones.swift in Sources */,
+				A997612122348DAE00F02D3A /* InicioViewController+Inicializadores.swift in Sources */,
 				A9A8B03522346D84003A0256 /* JuegoViewController+Acciones.swift in Sources */,
 				A978471E22320EC3006E969D /* ListadoViewController.swift in Sources */,
 				A9420BBF22317D8E009E4008 /* AppDelegate.swift in Sources */,
@@ -464,10 +490,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NVM9P8UU6;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Cholor/Recursos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pckz.Cholor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -480,10 +508,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NVM9P8UU6;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Cholor/Recursos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pckz.Cholor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
